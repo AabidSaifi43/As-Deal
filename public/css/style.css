@@ -1,0 +1,930 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu .d-inline-block {
+    width: 100%;
+}
+
+.navbar {
+    padding: 0px 20px !important;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar_logo {
+    width: 120px;
+}
+
+.nav-item {
+    list-style-type: none;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    z-index: 20;
+    padding-right: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Home section */
+.Home {
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 87vh;
+    animation: backgroundChange 20s linear infinite;
+}
+
+@keyframes backgroundChange {
+
+    0%,
+    100% {
+        background-image: url(../images/banner/banner1.jpg);
+    }
+
+    25% {
+        background-image: url(../images/banner/banner2.jpg);
+    }
+
+    50% {
+        background-image: url(../images/banner/banner3.jpg);
+    }
+
+    75% {
+        background-image: url(../images/banner/banner4.jpg);
+    }
+}
+
+/* Title section */
+.Home .title,
+.About .title,
+.Contact .title {
+    padding-left: 130px !important;
+    height: 100%;
+}
+
+.Home .title h1,
+.About .title h1,
+.Contact .title h1 {
+    color: #17426d;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.Home .title h2,
+.About .title h2,
+.Contact .title h2 {
+    font-size: 60px;
+    color: #292929;
+    font-weight: 800;
+}
+
+.Home .title p,
+.About .title p,
+.Contact .title p {
+    font-size: 20px;
+    color: #17426d;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.Home .title button,
+.About .title button,
+.Contact .title button {
+    font-size: 15px;
+    cursor: pointer;
+    height: 60px;
+    font-weight: 600;
+    margin-top: 40px;
+    transition: .4s linear;
+    width: 150px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.Home .title button:hover,
+.About .title button:hover,
+.Contact .title button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.Home .title #btn {
+    background-color: transparent;
+    margin-left: 20px;
+    color: white;
+    border: 2px solid black;
+}
+
+
+.Home .title #btn:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+/* Banner 2 */
+.banner2 {
+    padding: 50px 0px;
+}
+
+.point {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px 20px;
+    justify-content: center;
+}
+
+.point h1 {
+    font-weight: 800;
+    color: #17426d;
+}
+
+.point h2 {
+    font-weight: 600;
+    margin-top: 15px;
+    color: #292929;
+}
+
+.point p {
+    font-weight: 400;
+    margin-top: 15px;
+    color: #706d6d;
+}
+
+.point button {
+    cursor: pointer;
+    height: 60px;
+    max-width: 230px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: black;
+    transition: .4s linear;
+    border: none;
+}
+
+.point button:hover {
+    background-color: black;
+    color: white;
+}
+
+.photo {
+    height: 500px;
+}
+
+.photo img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.box {
+    padding: 10px;
+    transition: .1s linear;
+    margin-bottom: 20px;
+}
+
+.box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h1 {
+    font-size: 1.7rem;
+    color: #17426d;
+}
+
+.box p {
+    font-size: 1.2rem;
+    color: #292929;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.banner4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgb(203, 202, 202);
+    border-bottom: 1px solid rgb(203, 202, 202);
+}
+
+.banner4 h1 {
+    color: #17426d;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+
+
+
+/* footer  */
+
+
+
+
+
+.footer {
+    padding: 60px 30px;
+    border-bottom: 1px solid rgb(203, 202, 202);
+}
+
+.ui-log img {
+    width: 120px;
+}
+
+.ui-log h1 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #17426d;
+}
+
+.her h1 {
+    color: #17426d;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.her li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.her li a {
+    text-decoration: none;
+    transition: .3s linear;
+    color: #706d6d;
+    font-weight: 600;
+}
+
+.her li a:hover {
+    color: #17426d;
+}
+
+.him h1 {
+    color: #17426d;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.him li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.him li a {
+    text-decoration: none;
+    color: #706d6d;
+    transition: .3s linear;
+    font-weight: 600;
+}
+
+.him li a:hover {
+    color: #17426d;
+}
+
+.sub h1 {
+    color: #17426d;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.sub input {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid rgb(214, 212, 212);
+    background-color: aliceblue;
+}
+
+.sub button {
+    background-color: #17426d;
+    padding: 15px 35px;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.sub button:hover {
+    background-color: black;
+}
+
+.copyright {
+    padding: 25px;
+}
+
+.copy p {
+    color: #000000;
+    font-size: 20px;
+}
+
+.copy p span {
+    color: #17426d;
+    font-weight: 800;
+}
+
+.copy-icon #icon1 {
+    margin-left: 0px !important;
+}
+
+.copy-icon #ab {
+    margin-left: 30px;
+    transition: .3s linear;
+    cursor: pointer;
+    color: #17426d;
+    font-size: 25px;
+}
+
+.copy-icon #ab:hover {
+    color: #000000;
+}
+
+.copy-icon #icon1 {
+    margin-left: 0px !important;
+}
+
+
+
+/* about  */
+
+
+.About {
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 87vh;
+    animation: backgroundaboutChange 20s linear infinite;
+}
+
+
+
+@keyframes backgroundaboutChange {
+
+    0%,
+    100% {
+        background-image: url(../images/about/banner1.jpeg);
+        background-size: 50% 100%;
+        background-position: right;
+    }
+
+    25% {
+        background-image: url(../images/about/banner2.avif);
+        background-size: 50% 100%;
+        background-position: right;
+    }
+
+    50% {
+        background-image: url(../images/about/banner1.jpeg);
+        background-size: 50% 100%;
+        background-position: left;
+    }
+
+    75% {
+        background-image: url(../images/about/banner2.avif);
+        background-size: 50% 100%;
+        background-position: left;
+    }
+}
+
+
+.About .title,
+.Contact .title {
+    padding-left: 0px !important;
+}
+
+.about_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about_content h1 {
+    font-size: 40px;
+    color: #17426d;
+}
+
+.about_content p {
+    font-size: 20px;
+    color: black;
+}
+
+.about_img {
+    width: 100%;
+    height: 400px !important;
+    object-fit: cover;
+}
+
+
+.team h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.team h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #17426d;
+    margin-top: 20px;
+}
+
+.team p {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.team1 {
+    background-color: #eaf2f7;
+    border-radius: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team1 img {
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team1 h1 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.team1 h2 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.team_fle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact  */
+
+.Contact {
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 87vh;
+    animation: backgroundcontactChange 20s linear infinite;
+}
+
+@keyframes backgroundcontactChange {
+
+    0%,
+    100% {
+        background-image: url(../images/contact/banner1.jpg);
+    }
+
+    25% {
+        background-image: url(../images/contact/banner2.jpg);
+    }
+
+    50% {
+        background-image: url(../images/contact/banner3.jpg);
+    }
+
+    75% {
+        background-image: url(../images/contact/banner4.jpg);
+    }
+}
+
+.sale {
+    display: flex;
+    background-color: #eaf2f7;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* height: 200px; */
+}
+
+.sale h1 {
+    font-size: 25px;
+}
+
+.sale p {
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.sale h2 {
+    color: #17426d;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-content h2 {
+    font-size: 20px;
+}
+
+.contact-content h1 {
+    font-size: 35px;
+    color: #17426d;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.contact-content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+form {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #17426d;
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: black;
+}
+
+
+
+/* product  */
+
+
+.products{
+    background-color: #f4f4f4;
+}
+.product_card {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    transition: .3s linear;
+}
+
+.product_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product_card:hover .product_button {
+    opacity: 1;
+}
+
+.product_card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+.product_card img{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+.product_card h5{
+    margin-top: 15px;
+    color: #17426d;
+    font-weight: 700;
+}
+.product_card h4{
+    margin-top: 10px;
+    color:#292929;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1350px) {
+
+    .Home .title h1,
+    .About .title h1,
+    .Contact .title h1 {
+        font-size: 60px;
+    }
+
+    .Home .title h2,
+    .About .title h2,
+    .Contact .title h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner2 {
+        padding: 0px 0px;
+    }
+
+    .nav-item {
+        display: block;
+        justify-content: start;
+    }
+
+    .nav_icon_link {
+        justify-content: start !important;
+    }
+    .contac h1{
+        font-size: 35px !important;
+    }
+
+}
+
+@media (max-width: 825px) {
+    .Home .title {
+        padding-left: 50px !important;
+    }
+
+    @keyframes backgroundaboutChange {
+
+        0%,
+        100% {
+            background-image: url(../images/about/banner1.jpeg);
+        }
+
+        25% {
+            background-image: url(../images/about/banner2.avif);
+        }
+
+        50% {
+            background-image: url(../images/about/banner1.jpeg);
+        }
+
+        75% {
+            background-image: url(../images/about/banner2.avif);
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .point h1 {
+        font-size: 40px;
+    }
+
+    .point h2 {
+        font-size: 25px;
+    }
+
+    .photo {
+        padding: 0px 20px 40px 20px;
+    }
+
+    .team_fle {
+        padding: 0px !important;
+    }
+
+    .team h2 {
+        font-size: 20px;
+    }
+
+    .team h1 {
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    .team1 h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .team1 h2 {
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+@media (max-width: 550px) {
+    .navbar {
+        padding: 0px 20px !important;
+    }
+
+    .banner4 {
+        padding: 20px !important;
+    }
+
+    .banner4 h1 {
+        font-size: 20px !important;
+    }
+
+    .jhj {
+        padding: 10px !important;
+    }
+
+    .about_content h1 {
+        font-size: 30px;
+    }
+
+    .about_content p {
+        font-size: 15px;
+    }
+
+    .about_img {
+        height: 300px !important;
+    }
+
+    .footer {
+        padding: 20px 5px !important;
+    }
+
+    .ui-log {
+        padding: 5px !important;
+    }
+
+    .him {
+        padding: 5px !important;
+    }
+
+    .her {
+        padding: 5px !important;
+    }
+
+    .sub {
+        padding: 5px !important;
+    }
+
+    .my-5 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .team1 h1 {
+        font-size: 25px;
+    }
+    .py-5{
+       padding-top: 0px !important;
+       padding-bottom: 0px !important;
+    }
+    .contac h1{
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .Home .title {
+        padding-left: 0px !important;
+    }
+
+    .Home .title h1,
+    .About .title h1,
+    .Contact .title h1 {
+        font-size: 40px;
+    }
+
+    .Home .title h2,
+    .About .title h2,
+    .Contact .title h2 {
+        font-size: 30px;
+    }
+
+    .photo {
+        height: 300px;
+    }
+
+    .point h1 {
+        font-size: 30px;
+    }
+
+    .head_btn {
+        flex-direction: column;
+    }
+
+    .Home .title button,
+    .About .title button,
+    .Contact .title button {
+        height: 60px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Home .title #btn {
+        margin-left: 0px !important;
+        margin-top: 15px;
+    }
+
+    .jhj {
+        padding: 10px !important;
+    }
+
+    .copy p {
+        font-size: 15px;
+    }
+
+    .copy-icon #ab {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .team1 h1 {
+        font-size: 20px;
+    }
+
+}
